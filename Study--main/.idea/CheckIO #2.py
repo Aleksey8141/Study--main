@@ -1,7 +1,15 @@
+'''
+Дана строка и нужно найти ее первое слово.
+
+Строка состоит только из английских символов и пробелов.
+В начале и в конце строки пробелов нет.
+'''
+import re
+
 def first_word(text):
-    text = 'greeting from CheckiO Planet'
-    text = text.split(' ')
-    del text[1::]
+    text = 'Hello world'
+    text = text.split(' ')[0]
+    #del text[1::]
     return text
 first_word('')
 print(first_word(''))
