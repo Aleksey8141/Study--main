@@ -23,6 +23,6 @@ if  D >= 0:
     x2 = (-b - sqrt(D))/ (2 * a),
     print(round(x1, 2), round(x2, 2))
 else:
-    x1 = -b/2*a
+    x1 = -b/(2*a)
     x2 = sqrt(fabs(D)) / (2 * a)
     print(complex(x1, x2), complex(x1, -x2))
