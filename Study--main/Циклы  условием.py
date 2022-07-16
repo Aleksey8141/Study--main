@@ -15,7 +15,7 @@ from math import pi, e, sin, cos # import math
 
 x = 0
 
-while x<= pi:
+while x <= pi:
     y = e**sin(x) * cos(x)
     print(round(x, 3), round(y, 3))
     x += 0.1
