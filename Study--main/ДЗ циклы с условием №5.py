@@ -11,5 +11,5 @@ res = 0
 while i <= n:
     res += int('2' * i)
     i += 1
-print(res)
+print(('2'*i), res)
 
