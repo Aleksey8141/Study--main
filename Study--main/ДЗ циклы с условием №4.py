@@ -4,8 +4,8 @@
 
 n = eval(input('Введите число факториала:'))
 
-product = 1
+prod = 1
 for i in range(n):
-    product = product*(i+1)
-print(product)
+    prod = prod*(i+1)
+print(prod)
 
